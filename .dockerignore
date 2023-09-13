@@ -1,0 +1,10 @@
+env*
+README.md
+.gitignore
+data.json
+venv
+.idea
+
+# игнорировать каталоги .git и .cache
+.git
+.cache
