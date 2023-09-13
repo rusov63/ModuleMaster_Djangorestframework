@@ -4,9 +4,9 @@
 ## Описание.
 
 ### Написать небольшой проект на Django и Django Rest Framework с моделью "Образовательные модули". В них есть:
-порядковый номер
-название
-описание
+    порядковый номер
+    название
+    описание
 
 ## Задача.
 
@@ -29,9 +29,9 @@
     - coverage run --source='.' manage.py test
     - coverage report!
 
-[img_3.png](screen%2Fimg_3.png)
+![img_3.png](screen%2Fimg_3.png)
 
-[img.png](screen%2Fimg.png)
+![img.png](screen%2Fimg.png)
 
 
 # Для запуска проекта локально Вам потребуется:
