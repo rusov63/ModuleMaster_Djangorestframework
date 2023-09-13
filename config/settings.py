@@ -80,13 +80,6 @@ DATABASES = {
 }
 
 
-# TOKEN = os.getenv("TOKEN")
-# DOMAIN = os.getenv("DOMAIN")
-
-# print(TOKEN)
-# print(POSTGRES_DB)
-
-
 
 AUTH_PASSWORD_VALIDATORS = [
     {
