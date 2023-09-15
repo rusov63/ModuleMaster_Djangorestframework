@@ -37,16 +37,12 @@ services:
     volumes:
       - pgdata:/var/lib/postgresql/data/pgdata
     ports:
-      - "5435:5435"
+      - "5433:5432"
     healthcheck:
       test: [ "CMD", "pg_isready", "-q", "-d", "postgres", "-U", "postgres" ]
-#      interval: 30s
-#      timeout: 5s
-#      retries: 4
-
-#test: [ "CMD", "pg_isready", "-q", "-d", "postgres", "-U", "postgres" ]
-# если используется переменные окружения обязательно указываем test
-#
+      interval: 30s
+      timeout: 5s
+      retries: 4
 
 
 
