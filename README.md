@@ -22,7 +22,8 @@
 ## Для подсчета покрытия тестами использовался специальный пакет Coverage
 
 		coverage run --source='.' manage.py test
-        coverage report
+
+		coverage report
 
 ![img_3.png](screen%2Fimg_3.png)
 
