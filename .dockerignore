@@ -5,6 +5,7 @@ data.json
 venv*
 venv
 .idea
+.env.docker
 
 ## игнорировать каталоги .git и .cache
 .cache
