@@ -13,6 +13,3 @@ class Command(BaseCommand):
     def handle(self, *args, **options):
         Modul.objects.all().delete()
         Lesson.objects.all().delete()
-
-
-

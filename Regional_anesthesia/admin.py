@@ -22,11 +22,3 @@ class LessonAdmin(admin.ModelAdmin):
     """
     list_display = ('numbers', 'lessonNo', 'lesson', 'subject', 'form', 'hour')
     search_fields = ('lesson', 'subject')
-
-
-
-
-
-
-
-

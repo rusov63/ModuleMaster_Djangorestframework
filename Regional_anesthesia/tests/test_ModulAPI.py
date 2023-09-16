@@ -32,12 +32,9 @@ class ModulApiTestCase(APITestCase):
         self.assertEqual(response.status_code, status.HTTP_201_CREATED)
         print(response.data)
 
-
     def test_delete(self):
         # Тестирование DELETE-запроса к API
 
         url = 'http://127.0.0.1:8000/anesthesia/1/'
         response = self.client.delete(url)
         self.assertEqual(response.status_code, status.HTTP_404_NOT_FOUND)
-
-

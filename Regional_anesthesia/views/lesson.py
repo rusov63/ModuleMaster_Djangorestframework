@@ -21,7 +21,6 @@ class LessonListAPIView(generics.ListAPIView):
     queryset = Lesson.objects.all()
 
 
-
 class LessonRetrieveAPIView(generics.RetrieveAPIView):
     """
     Отвечает за получение одной сущности в модели Lesson.
@@ -38,12 +37,7 @@ class LessonUpdateAPIView(generics.UpdateAPIView):
     """
     serializer_class = LessonSerializer
     queryset = Lesson.objects.all()
-    # lookup_field = 'pk'
-    # lookup_url_kwarg = 'pk'
-    # permission_classes = [permissions.IsAuthenticated]
-    # authentication_classes = [TokenAuthentication]
-    # throttle_classes = [UserRateThrottle]
-    # throttle_scope = 'user'
+
 
 class LessonDestroyAPIView(generics.DestroyAPIView):
     """

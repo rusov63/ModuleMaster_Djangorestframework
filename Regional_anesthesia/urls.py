@@ -4,7 +4,7 @@ from django.urls import path
 from Regional_anesthesia.views.modul import ModulViewSet
 
 from Regional_anesthesia.views.lesson import LessonCreateAPIView, LessonListAPIView, LessonRetrieveAPIView, \
-LessonUpdateAPIView, LessonDestroyAPIView
+    LessonUpdateAPIView, LessonDestroyAPIView
 
 
 app_name = RegionalAnesthesiaConfig.name

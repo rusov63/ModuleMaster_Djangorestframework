@@ -8,6 +8,5 @@ class Command(BaseCommand):
     python manage.py fill
 
     """
-
     def handle(self, *args, **options):
         call_command('loaddata', 'data.json')
