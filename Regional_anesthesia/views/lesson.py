@@ -44,4 +44,4 @@ class LessonDestroyAPIView(generics.DestroyAPIView):
     Отвечает за удаление сущности в модели Lesson.
     Наследование от DestroyAPIView.
     """
-    queryset = Lesson.objects.all
+    queryset = Lesson.objects.all()
