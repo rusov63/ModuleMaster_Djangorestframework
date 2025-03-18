@@ -1,5 +1,5 @@
 env*
-README.md
+readme.md
 .gitignore
 data.json
 venv*
